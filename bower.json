@@ -11,7 +11,6 @@
     "AUTHORS.txt",
     "Gruntfile.js",
     "package.json",
-    "bower.json",
     "bower_components",
     "node_modules"
   ],
