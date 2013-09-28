@@ -1,6 +1,7 @@
 {
-  "name": "jquery",
+  "name": "jquery-commonjs",
   "version": "2.0.4-pre",
+  "main": "dist/jquery.js",
   "ignore": [
     "**/.*",
     "build",
@@ -10,13 +11,14 @@
     "AUTHORS.txt",
     "Gruntfile.js",
     "package.json",
-    "bower.json"
+    "bower.json",
+    "bower_components",
+    "node_modules"
   ],
-  "dependencies": {
-    "sizzle": "~1.10.9",
-    "requirejs": "~2.1.8"
-  },
+  "dependencies": {},
   "devDependencies": {
+    "sizzle": "~1.10.9",
+    "requirejs": "~2.1.8",
     "qunit": "~1.12.0"
   }
 }
